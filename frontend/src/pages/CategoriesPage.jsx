@@ -2,6 +2,8 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Card, CardHeader, CardTitle, CardDescription } from '../components/ui/card';
 import { Button } from '../components/ui/button';
+import FloatingChatbot from '../components/FloatingChatbot';
+import Header from '../components/Header';
 import { 
   Dna, Microscope, Heart, Leaf, Radiation, 
   Globe, Building2, Database, Bone, Activity, 
@@ -33,6 +35,7 @@ const CategoriesPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
+      <Header />
       <div className="container mx-auto px-6 py-12">
         {/* Header */}
         <div className="text-center mb-16">
@@ -91,6 +94,9 @@ const CategoriesPage = () => {
           </Button>
         </div>
       </div>
+      
+      {/* Floating Chatbot */}
+      <FloatingChatbot />
     </div>
   );
 };

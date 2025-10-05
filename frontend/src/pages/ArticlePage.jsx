@@ -3,6 +3,8 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { Button } from '../components/ui/button';
 import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/card';
 import { Separator } from '../components/ui/separator';
+import FloatingChatbot from '../components/FloatingChatbot';
+import Header from '../components/Header';
 import { 
   ArrowLeft, Target, Beaker, BarChart3, 
   Lightbulb, Network, CheckCircle2, ExternalLink 
@@ -64,6 +66,7 @@ const ArticlePage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
+      <Header />
       <div className="container mx-auto px-6 py-12 max-w-5xl">
         {/* Header */}
         <div className="mb-8">
@@ -150,6 +153,9 @@ const ArticlePage = () => {
           </Button>
         </div>
       </div>
+      
+      {/* Floating Chatbot */}
+      <FloatingChatbot />
     </div>
   );
 };

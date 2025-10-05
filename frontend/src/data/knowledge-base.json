@@ -1,0 +1,133 @@
+{
+  "categories": [
+    {
+      "name": "Space Biology",
+      "description": "Biological processes in space environments",
+      "details": "Space Biology studies how living organisms adapt and function in the unique environment of space, including microgravity and radiation exposure."
+    },
+    {
+      "name": "Space Microbiology",
+      "description": "Microbial life and behavior in space",
+      "details": "Research on how microorganisms behave, grow, and evolve in space conditions, which is crucial for long-duration space missions and planetary protection."
+    },
+    {
+      "name": "Space Medicine",
+      "description": "Health and medical research for astronauts",
+      "details": "Medical research focused on maintaining astronaut health during space missions, including cardiovascular, immune system, and psychological health."
+    },
+    {
+      "name": "Plant Biology",
+      "description": "Plant growth and adaptation in space",
+      "details": "Studies on how plants grow in microgravity, essential for developing sustainable food production systems for long-term space missions."
+    },
+    {
+      "name": "Radiation Effects",
+      "description": "Impact of cosmic radiation on living organisms",
+      "details": "Research on how cosmic radiation affects DNA, cells, and tissues, critical for protecting astronauts on deep space missions."
+    },
+    {
+      "name": "Microgravity Effects",
+      "description": "Effects of reduced gravity on biological systems",
+      "details": "Studies on how microgravity affects various biological processes including bone density, muscle mass, and fluid distribution."
+    },
+    {
+      "name": "ISS Research",
+      "description": "Studies conducted on the International Space Station",
+      "details": "The ISS serves as a unique laboratory for conducting experiments in microgravity, advancing our understanding of space science."
+    },
+    {
+      "name": "Omics in Space",
+      "description": "Genomics, proteomics, and metabolomics in space",
+      "details": "Advanced molecular studies examining how space conditions affect gene expression, protein production, and metabolic processes."
+    },
+    {
+      "name": "Bone & Muscle",
+      "description": "Musculoskeletal changes in microgravity",
+      "details": "Research on bone loss and muscle atrophy in space, and development of countermeasures like exercise protocols."
+    },
+    {
+      "name": "Space Physiology",
+      "description": "Physiological adaptations to space environments",
+      "details": "Studies on how the human body adapts to space, including changes in cardiovascular, vestibular, and sensory systems."
+    },
+    {
+      "name": "Astrobiology",
+      "description": "Search for life beyond Earth",
+      "details": "Interdisciplinary field studying the origin, evolution, and distribution of life in the universe."
+    },
+    {
+      "name": "Space Technology",
+      "description": "Technological innovations for space exploration",
+      "details": "Development of new technologies and systems to support human spaceflight and scientific research in space."
+    },
+    {
+      "name": "Others",
+      "description": "Additional space research topics",
+      "details": "Various other research areas related to space science and exploration."
+    }
+  ],
+  "general_info": {
+    "site_name": "AI Knowledge Engine",
+    "description": "A comprehensive collection of cutting-edge research on space biology, microgravity effects, radiation studies, and the future of human spaceflight.",
+    "total_categories": 13,
+    "total_articles": "100+",
+    "data_source": "International Space Station"
+  },
+  "faq": [
+    {
+      "question": "What is this website about?",
+      "answer": "This is an AI Knowledge Engine focused on space science research, particularly studies related to the International Space Station, space biology, and human spaceflight."
+    },
+    {
+      "question": "How many research categories are available?",
+      "answer": "We have 13 research categories covering various aspects of space science including Space Biology, Space Medicine, Radiation Effects, and more."
+    },
+    {
+      "question": "What is the International Space Station?",
+      "answer": "The International Space Station (ISS) is a habitable artificial satellite in low Earth orbit, serving as a microgravity and space environment research laboratory."
+    },
+    {
+      "question": "What research is conducted on the ISS?",
+      "answer": "The ISS hosts research in multiple fields including biology, human biology, physics, astronomy, and meteorology. It provides a unique platform for studying the effects of long-term space exposure."
+    },
+    {
+      "question": "What are the effects of microgravity?",
+      "answer": "Microgravity affects various biological systems including bone density loss, muscle atrophy, fluid redistribution, and changes in cardiovascular function."
+    },
+    {
+      "question": "How does radiation affect astronauts?",
+      "answer": "Cosmic radiation can damage DNA, increase cancer risk, and affect various cellular processes. Research focuses on understanding and mitigating these effects."
+    },
+    {
+      "question": "Can plants grow in space?",
+      "answer": "Yes, plants can grow in space. Research in Plant Biology studies how plants adapt to microgravity and develop systems for sustainable food production in space."
+    },
+    {
+      "question": "What is astrobiology?",
+      "answer": "Astrobiology is the study of the origin, evolution, distribution, and future of life in the universe, including the search for extraterrestrial life."
+    },
+    {
+      "question": "Why is space research important?",
+      "answer": "Space research helps us understand fundamental biological processes, develop new technologies, prepare for long-duration space missions, and potentially discover life beyond Earth."
+    },
+    {
+      "question": "What are the main challenges of space travel?",
+      "answer": "Main challenges include radiation exposure, bone and muscle loss, psychological stress, limited resources, and the effects of microgravity on the human body."
+    },
+    {
+      "question": "How do astronauts exercise in space?",
+      "answer": "Astronauts use specialized equipment like treadmills, stationary bikes, and resistance devices to counteract muscle atrophy and bone loss caused by microgravity."
+    },
+    {
+      "question": "What is space medicine?",
+      "answer": "Space medicine focuses on maintaining astronaut health during space missions, addressing issues like cardiovascular changes, immune system alterations, and psychological well-being."
+    }
+  ],
+  "key_topics": {
+    "microgravity": "A condition where gravity is significantly reduced, causing unique effects on biological systems, fluid dynamics, and physical processes.",
+    "cosmic_radiation": "High-energy particles from space that can penetrate spacecraft and potentially harm living organisms and electronics.",
+    "space_adaptation": "The process by which organisms adjust to the space environment, including changes in physiology, behavior, and cellular function.",
+    "life_support": "Systems that provide air, water, food, and waste management for astronauts during space missions.",
+    "countermeasures": "Strategies and interventions designed to mitigate the negative effects of space travel on human health."
+  }
+}

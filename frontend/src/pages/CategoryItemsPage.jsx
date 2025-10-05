@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Card, CardHeader, CardTitle, CardDescription } from '../components/ui/card';
 import { Button } from '../components/ui/button';
+import FloatingChatbot from '../components/FloatingChatbot';
+import Header from '../components/Header';
 import { ArrowLeft, FileText, ExternalLink } from 'lucide-react';
 
 const CategoryItemsPage = () => {
@@ -15,10 +17,12 @@ const CategoryItemsPage = () => {
     fetch('/data/research.json')
       .then(res => res.json())
       .then(data => {
-        // Filter articles by category
-        const filtered = data.filter(article => 
-          article.categories && article.categories.includes(decodeURIComponent(categoryName))
-        );
+        // Filter articles by category and preserve original index
+        const filtered = data
+          .map((article, index) => ({ ...article, originalIndex: index }))
+          .filter(article => 
+            article.categories && article.categories.includes(decodeURIComponent(categoryName))
+          );
         setArticles(filtered);
         setLoading(false);
       })
@@ -47,6 +51,7 @@ const CategoryItemsPage = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
+      <Header />
       <div className="container mx-auto px-6 py-12">
         {/* Header */}
         <div className="mb-8">
@@ -81,7 +86,7 @@ const CategoryItemsPage = () => {
               <Card
                 key={index}
                 className="bg-slate-800/50 border-slate-700 hover:bg-slate-800 transition-all duration-300 hover:shadow-xl hover:shadow-blue-500/10 cursor-pointer group"
-                onClick={() => navigate(`/article/${index}`)}
+                onClick={() => navigate(`/article/${article.originalIndex}`)}
               >
                 <CardHeader className="space-y-4">
                   <div className="flex items-start justify-between gap-4">
@@ -118,6 +123,9 @@ const CategoryItemsPage = () => {
           </div>
         )}
       </div>
+      
+      {/* Floating Chatbot */}
+      <FloatingChatbot />
     </div>
   );
 };
