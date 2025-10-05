@@ -1,7 +1,7 @@
 {
   "name": "frontend",
   "version": "0.1.0",
-  "homepage": "https://mo3azatef.github.io/AstroGen/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
@@ -88,5 +88,8 @@
     "globals": "15.15.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17"
+  },
+  "engines": {
+    "node": ">=18.x"
   }
 }
